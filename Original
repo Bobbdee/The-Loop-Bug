@@ -9,3 +9,4 @@ else:
   else:
     print("A shame, that's too low")
 print("The game is terminated!")
+#How do I activate text highlighting here?
