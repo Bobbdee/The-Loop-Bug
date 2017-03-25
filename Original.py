@@ -7,7 +7,7 @@ else:
   while guess > 5: 
 #I changed the "if" to "while". When I ran the program, it looped, but I had to kill the program to make it stop.I guess that is progress because it is looping.
     print("That is too darn high")
-    g = input("Guess the number:") #Could it have previouly gone on an infinite loop because I didn't tell it what to do afterward? We shall see.
+    g = input("Guess the number:") #Could it have previously gone on an infinite loop because I didn't tell it what to do afterward? We shall see.
   else:
     while guess < 5:
       print("A shame, that's too low")
@@ -22,7 +22,7 @@ while answer == "no":
   answer = input("Are we there?")
 print("We're there!")
 
-#This next code is woriking code from Khan Academy
+#This next code is a working code from Khan Academy
 a = input("Guess my age: ")
 while a > "26":
     print("Nope! Too high!")
